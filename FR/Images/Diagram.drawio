@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" modified="2024-01-29T09:42:30.597Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="pWEBUusSEh6SivM9AKG4" version="23.0.2" type="device">
+  <diagram name="Page-1" id="lpgppxDmGUZ7SoVmLBTI">
+    <mxGraphModel dx="1009" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-1" target="5Iw_g-IjhaR2oYxlhwfu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-1" value="DEBUT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-2" target="5Iw_g-IjhaR2oYxlhwfu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-2" value="Télécharger le fichier week.csv depuis interne" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-3" target="5Iw_g-IjhaR2oYxlhwfu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-3" value="Extraire les IoC du fichier week.csv (quatrième colonne)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-4" target="5Iw_g-IjhaR2oYxlhwfu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-4" value="Lire le fichier jira_soc.csv à la recherche des ioC identifié précédemment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="400" width="156" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-7" target="5Iw_g-IjhaR2oYxlhwfu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-20" value="OUI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Iw_g-IjhaR2oYxlhwfu-16">
+          <mxGeometry x="-0.4921" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-7" target="5Iw_g-IjhaR2oYxlhwfu-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-21" value="NON" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="5Iw_g-IjhaR2oYxlhwfu-17">
+          <mxGeometry x="-0.4854" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-7" value="IoC&lt;br&gt;trouvés ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-8" target="5Iw_g-IjhaR2oYxlhwfu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-8" value="Afficher la ligne correspondante dans week.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="216" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Iw_g-IjhaR2oYxlhwfu-9" target="5Iw_g-IjhaR2oYxlhwfu-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-9" value="Afficher &quot;aucun IoC n&#39;a été trouvé entre week.csv et jira_soc.csv&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Iw_g-IjhaR2oYxlhwfu-11" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="800" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
