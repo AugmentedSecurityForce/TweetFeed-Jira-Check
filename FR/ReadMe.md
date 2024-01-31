@@ -1,5 +1,5 @@
 # PRESENTATION
-Ce script Python permet de vérifier les indicateurs de compromission (IoC) extraits du fichier week.csv fournit par ![TweetFeed](https://tweetfeed.live) par rapport à un fichier de référence jira_soc.csv comportant l'extraction des tickets Jira.
+Ce script Python permet de vérifier les indicateurs de compromission (IoC) extraits du fichier week.csv fournit par ![TweetFeed](https://tweetfeed.live) par rapport à un fichier de référence comportant l'extraction des informations contenu dans vos tickets extrait depuis votre ITSM (testé avec Jira).
 
 # OBJECTIF
 L'objectif de ce script est d'identifier les IoCs présents dans le fichier week.csv qui sont présents  dans le fichier de référence jira_soc.csv. Cela permet de détecter de nouvelles menaces potentielles et de prendre des mesures de sécurité appropriées.
